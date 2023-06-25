@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #27192F;
+    color: #FFF;
+}
+
+.header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./header_bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.header .title {
+    font-size: 8em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    background: url('./content_bg.png'), linear-gradient(to bottom, #fff0, #fff0);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    transform: translateY(-200px);
+
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.content h2,
+.content p {
+    margin-top: 2em;
+    text-align: justify;
+    color: #faf3ff;
+}
